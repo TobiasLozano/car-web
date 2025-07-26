@@ -1,0 +1,40 @@
+.swiper {
+  width: 100%;
+  max-width: 1100px;
+  padding: 40px 20px;
+  margin-bottom: 50px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 50px; /* Aún mejor separación entre slides */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  background-color: transparerent;
+  box-shadow: none;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  position: relative;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--primary-color);
+}
+.swiper-pagination-bullet {
+  background-color: var(--primary-color);
+}
