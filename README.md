@@ -1,6 +1,6 @@
 # Car web
 
-Professional website for **Transmisiones Automáticas del Atlántico**, a specialized workshop for maintenance, diagnostics, and repair of cars.
+Professional website for **Transmisiones Automáticas del Atlántico**, a specialized shop for maintenance, diagnostics, and repair of cars.
 
 ## Features
 
