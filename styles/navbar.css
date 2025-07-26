@@ -103,8 +103,8 @@
 
 .main-nav ul li a.active::after,
 .main-nav ul li a:hover::after {
-  width: 100%;
-  left: 0;
+  width: 90%;
+  left: 5%;
   background: var(--primary-color, #cb1837);
 }
 
@@ -113,8 +113,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height:38px;
   background: none;
   border: none;
   cursor: pointer;
