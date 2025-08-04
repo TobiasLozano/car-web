@@ -7,7 +7,7 @@
 
 .swiper-wrapper {
   display: flex;
-  gap: 50px; /* Aún mejor separación entre slides */
+  gap: 50px; 
 }
 
 .swiper-slide {

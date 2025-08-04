@@ -9,7 +9,7 @@
 .contact-info-section h2,
 .brands-section h2 {
   font-size: 2.5em;
-  color: var(--primary-color); /* Color del título */
+  color: var(--primary-color);
   margin-bottom: 20px;
   text-align: center;
 }
@@ -36,19 +36,21 @@
 }
 
 .btn-chat:hover {
-  background-color: #c91530; /* Un rojo un poco más oscuro al pasar el ratón */
+  background-color: #ad1028;
+  box-shadow: 0 4px 10px rgba(31, 27, 27, 0.596);
+  transition: 0.25s;
 }
 
 /* --- Sección de Información de Contacto (Cards) --- */
 .contact-info-section {
-  background-color: var(--light-grey); /* Fondo gris claro */
+  background-color: var(--light-grey);
   text-align: center;
 }
 
 .cards-container {
-  display: grid; /* Usamos Grid para un layout flexible de tarjetas */
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px; /* Espacio entre tarjetas */
+  gap: 20px;
   align-items: stretch;
 }
 
@@ -68,7 +70,7 @@
 }
 
 .card-icon {
-  font-size: 2.5em; /* Tamaño de los iconos */
+  font-size: 2.5em;
   color: var(--primary-color);
   margin-bottom: 15px;
 }
@@ -117,9 +119,8 @@
   }
 
   .cards-container {
-    /* MODIFICACIÓN: En pantallas más pequeñas, volvemos a una columna */
     grid-template-columns: 1fr;
-    gap: 30px; /* Puedes ajustar este gap para móvil si lo deseas */
+    gap: 30px;
   }
 
   .footer-content {
@@ -131,7 +132,6 @@
   }
 }
 
-/* NUEVA MEDIA QUERY: Para pantallas medianas (tablets/laptops) entre 769px y 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
   .cards-container {
     grid-template-columns: repeat(
@@ -168,7 +168,7 @@
 
 .btn-primary {
   display: inline-block;
-  background-color: var(--dark-blue); /* Otro color para el botón */
+  background-color: var(--dark-blue);
   color: var(--white);
   padding: 15px 30px;
   text-decoration: none;
@@ -280,7 +280,7 @@
   }
 
   .cards-container {
-    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    grid-template-columns: 1fr;
   }
 
   .footer-content {
