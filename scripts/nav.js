@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
           let navHeight = navbar.offsetHeight || 70;
           if (navHeight < 60 || navHeight > 120) navHeight = 80;
           const targetTop = target.getBoundingClientRect().top + window.scrollY - navHeight - 8;
-          // Forzar el scroll después de un pequeño delay para asegurar el cierre del menú
           setTimeout(() => {
             window.scrollTo({
               top: targetTop,

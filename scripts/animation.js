@@ -1,4 +1,3 @@
-// scripts/animaciones.js
 document.addEventListener('DOMContentLoaded', () => {
   const animated = document.querySelectorAll(
     '.section-animate, .servicio-card, .contact-card, .mv-card'

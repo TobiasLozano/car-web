@@ -1,6 +1,5 @@
-// scripts/faq.js
 document.addEventListener('DOMContentLoaded', function () {
-  // FAQ accordion logic
+  
   document.querySelectorAll('.faq-question').forEach(btn => {
     btn.addEventListener('click', function () {
       const item = this.parentElement;
